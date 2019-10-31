@@ -6,9 +6,9 @@ This dataset is proposed in:
 
 [our paper reference here](url here) 
 
-@inproceedings{yangzl2019GanStega,
-  title={GAN-TStega: Text Steganography Based on Generative Adversarial Networks},
-  author={Yang, Zhongliang and Wei, Nan and Liu, Qinghe and Huang, Yongfeng and Zhang, Yujin},
+@inproceedings{yangzl2019IStego100K,
+  title={IStego100K: Large-scale Image Steganalysis Dataset},
+  author={Yang, Zhongliang and Wang, Ke and Ma, Sai and Huang, Yongfeng and Kang, Xiangui and Zhao, Xianfeng},
   booktitle={International Workshop on Digital Watermarking},
   year={2019},
   organization={Springer}

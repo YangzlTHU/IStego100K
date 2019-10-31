@@ -6,6 +6,14 @@ This dataset is proposed in:
 
 [our paper reference here](url here) 
 
+@inproceedings{yangzl2019GanStega,
+  title={GAN-TStega: Text Steganography Based on Generative Adversarial Networks},
+  author={Yang, Zhongliang and Wei, Nan and Liu, Qinghe and Huang, Yongfeng and Zhang, Yujin},
+  booktitle={International Workshop on Digital Watermarking},
+  year={2019},
+  organization={Springer}
+}
+
 ## Download
 
 #### [Train Set](google drive url here) 

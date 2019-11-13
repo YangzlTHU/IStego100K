@@ -23,7 +23,7 @@ This dataset is proposed in:
 #### [Same-Source Test Set](https://drive.google.com/drive/folders/1AJFlnpfp_QudBx3aF6CD2Wf28aYNVmNz?usp=sharing) 
 8104 images with cover/stego [labels](https://drive.google.com/file/d/1Td4MJiWSMGGwxiAPx-CFeB96duy1uGxD/view?usp=sharing) (not in pair), origin images were downloaded from [Unsplash](https://unsplash.com/)
 
-#### [Differenct-Source Test Set](https://drive.google.com/file/d/1Xzo3Q9QqfUUiOzQP7LRRdenhz2CGS2Zz/view?usp=sharing)
+#### [Different-Source Test Set](https://drive.google.com/file/d/1Xzo3Q9QqfUUiOzQP7LRRdenhz2CGS2Zz/view?usp=sharing)
 10000 images with cover/stego [labels](https://drive.google.com/file/d/1DbheoDUct6h2IYZfGKYgZ4oVGjloFu76/view?usp=sharing) (not in pair), origin images were shot on different mobile devices.
 
     Note: The number of images is 11809 in the paper, but we removed some low quality images before uploading.

@@ -24,7 +24,9 @@ This dataset is proposed in:
 8104 images with cover/stego [labels](https://drive.google.com/file/d/1Td4MJiWSMGGwxiAPx-CFeB96duy1uGxD/view?usp=sharing) (not in pair), origin images were downloaded from [Unsplash](https://unsplash.com/)
 
 #### [Differenct-Source Test Set](https://drive.google.com/file/d/1Xzo3Q9QqfUUiOzQP7LRRdenhz2CGS2Zz/view?usp=sharing)
-11809 images with cover/stego [labels](https://drive.google.com/file/d/1DbheoDUct6h2IYZfGKYgZ4oVGjloFu76/view?usp=sharing) (not in pair), origin images were shot on different mobile devices
+10000 images with cover/stego [labels](https://drive.google.com/file/d/1DbheoDUct6h2IYZfGKYgZ4oVGjloFu76/view?usp=sharing) (not in pair), origin images were shot on different mobile devices.
+
+    Note: The number of images is 11809 in the paper, but we removed some low quality images before uploading.
 
 ## Steganographic Algorithms
 We use the following steganographic algorithms for our dataset:
@@ -37,6 +39,7 @@ We apply the following steganalysis algorithms for dataset evaluation:
 * __DCTR__: V. Holub and J. Fridrich, _Low Complexity Features for JPEG Steganalysis Using Undecimated DCT,_ IEEE Transactions on Information Forensics and Security, to appear. [[code]](http://dde.binghamton.edu/download/feature_extractors/) [[pdf]](http://www.ws.binghamton.edu/fridrich/Research/DCTR.pdf)
 - __GFR__: X. Song, F. Liu, C. Yang, X. Luo and Y. Zhang, _Steganalysis of Adaptive JPEG Steganography Using 2D Gabor Filters,_ Proceedings of the 3rd ACM Workshop on Information Hiding and Multimedia Security. ACM, 2015. [[code]](http://dde.binghamton.edu/download/feature_extractors/) [[pdf]](https://dl.acm.org/citation.cfm?id=2756608)
 * __SRNet__: M. Boroumand,M. Chen,and J. Fridrich. _Deep Residual Network for Steganalysis of Digital Images,_ IEEE Transactions on Information Forensics and Security. PP. 1-1. 10.1109/TIFS.2018.2871749, 2018. [[code]](http://dde.binghamton.edu/download/feature_extractors/) [[pdf]](https://ieeexplore.ieee.org/document/8470101/)
+- __XuNet__: G. Xu. _Deep convolutional neural network to detect j-uniward_, Proceedings of the 5th ACM Workshop on Information Hiding and Multimedia Security. ACM, 2017. [[code]](https://github.com/GuanshuoXu/caffe_deep_learning_for_steganalysis) [[pdf]](https://dl.acm.org/citation.cfm?id=3083236)
 
 ## More Details
 For more details such as pre-processing, data distribution, and steganalysis baselines, please take a look at the [paper](#IStego100K).

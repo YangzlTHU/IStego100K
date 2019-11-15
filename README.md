@@ -80,4 +80,4 @@ __Results for Different Quality Factors on SS-Test__
 |GFR|75<br>80<br>85<br>90<br>95|70.08<br>69.91<br>68.42<br>64.67<br>58.30|75.06<br>74.98<br>71.54<br>67.02<br>59.76|60.15<br>59.75<br>61.17<br>57.75<br>50.82|66.78<br>66.50<br>65.95<br>62.04<br>64.93|
 
 ## More Details
-For more details such as pre-processing, data distribution, and steganalysis baselines, please take a look at the [paper](#IStego100K).
+For more details such as pre-processing, data distribution, and steganalysis baselines, please take a look at the [arxiv](https://arxiv.org/abs/1911.05542).

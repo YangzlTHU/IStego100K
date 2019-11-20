@@ -33,6 +33,26 @@ Marked as DS-Test in the paper.10000 images with cover/stego [labels](https://dr
 
     Note: The number of images is 11809 in the paper, but we removed some low quality images before uploading.
 
+## Detailed Parameters
+We also provide detailed parameters for each image [here](https://drive.google.com/drive/folders/1wGX1PZiIEpVNOX8_45xIQTWDBgP94Hzj?usp=sharing).
+
+The parameter files are organized as follows:
+
+```Python
+parameters={
+    "000001.jpg":{ # parameters for stego-file    
+        "quality": 95,  # quality factor
+        "rate": 0.4, # embedding rate (payload)
+        "steg_algorithm": "nsf5" # steganographic algorithm
+     },
+     "000002.jpg":{ # parameters for cover-file
+       "quality": 90 # quality factor
+     }
+}
+```
+
+    Note: For the training set, cover files and stego files are in pairs with same quality factors, so we omitted the parameter file for cover files in training set.
+    
 ## Steganographic Algorithms
 We use the following steganographic algorithms for our dataset:
 * __nsF5__: J. Fridrich, T. Pevný, and J. Kodovský, _Statistically undetectable JPEG steganography: Dead ends, challenges, and opportunities._ In J. Dittmann and J. Fridrich, editors, Proceedings of the 9th ACM Multimedia & Security Workshop, pages 3–14, Dallas, TX, September 20–21, 2007. [[code]](http://dde.binghamton.edu/download/nsf5simulator/) [[pdf]](http://dde.binghamton.edu/kodovsky/pdf/Fri07-ACM.pdf)

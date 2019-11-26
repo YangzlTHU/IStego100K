@@ -1,7 +1,10 @@
-# Steganography Algorithms
+# Steganographic Algorithms
 
-We provide codes for 3 steganography algorithms here: J-uniward, nsF5 and UERD.
+We provide codes for 3 steganographic algorithms here: J-uniward, nsF5 and UERD.
 
+Part of our codes are downloaded from: 
+ * [J-uniward and nsF5](http://dde.binghamton.edu/download/stego_algorithms/)
+ - [UERD](https://github.com/mach-ms/UERD)
 ## Environment Setup
 
 You need [MATLAB](https://www.mathworks.com/products/get-matlab.html?s_tid=gn_getml) to run the scripts. 

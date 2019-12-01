@@ -49,5 +49,10 @@ results.predictions - individual cover (-1) and stego (+1) predictions based on 
 
 results.votes - sum of all votes (gives some information about confidenc prediction e)
 
+## Get start
+DCTR is very familiar with GFR, the only difference is in the first step. In matlab, run F=DCTR(I_STRUCT, QF), for I_STRUCT, you need to input the path of image, for QF you need to enter the JPEG quality factor(can be either 75 or 95.
+
+Following step is same with GFR, you can get a direction in 'GFR' file.
+
 # Paper and Code
 V. Holub and J. Fridrich, _Low Complexity Features for JPEG Steganalysis Using Undecimated DCT,_ IEEE Transactions on Information Forensics and Security, to appear. [[code]](http://dde.binghamton.edu/download/feature_extractors/) [[pdf]](http://www.ws.binghamton.edu/fridrich/Research/DCTR.pdf)

@@ -46,6 +46,15 @@ results.predictions - individual cover (-1) and stego (+1) predictions based on 
 
 results.votes - sum of all votes (gives some information about confidenc prediction e)
 
+## Get start
+1.In MATLAB, you need to add the jpeg_toolbox to your working diectory.
+
+2.Then, run the GFR function.Type "F=GFR(IMAGE,NR,QF)" in the working space. For IMAGE, you need to enter the path of the picture, for NR you need to enter number of rotations for Gabor kernel, for QF you need to enter the JPEG quality factor(75 or 95). The output F is the extracted feature. 
+
+3.Next, you may run the ensemble_training.m. Input the extracted feature of orign picture and stego picture. Then You will get the classifier.
+
+4.Finally, run the ensemble_testing.m. Input the test picture feature and your classifier. You can get the prediction.
+   
 
 # Paper and Code
 

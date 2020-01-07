@@ -18,3 +18,10 @@ nsf5_simulation(cover_img, nsF5_img, payload, random_seed);
 addpath('UERD');
 uerd_img = 'test_UERD.jpg';
 uerd_run(cover_img, uerd_img, payload);
+
+%% steg by HILL_GINA
+addpath('HILL_GINA');
+hill_gina_img = 'test_HILL_GINA.jpg';
+threshold = 30;
+stego = HILL_GINA(cover_img, payload, threshold);
+imwrite(stego/255, hill_gina_img);

@@ -19,10 +19,11 @@ You need [MATLAB](https://www.mathworks.com/products/get-matlab.html?s_tid=gn_ge
 2. Run the following command (It may take 1-3 minutes):
 
         run example.m
-3. If your code runs correctly, three steganographic images are generated in this folder, and you can hardly tell the difference between them and the cover image [test.jpg](test.jpg):
+3. If your code runs correctly, four steganographic images are generated in this folder, and you can hardly tell the difference between them and the cover image [test.jpg](test.jpg):
     * [test_Juniward.jpg](test_Juniward.jpg)
     - [test_nsF5.jpg](test_nsF5.jpg)
     * [test_UERD.jpg](test_UERD.jpg)
+    - [test_HILL_GINA.jpg](test_HILL_GINA.jpg)
 
 4. Have a look at the [example code](example.m) you just run, it's very easy to understand, now you can play it with yourself!
 

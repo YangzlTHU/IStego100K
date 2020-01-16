@@ -5,7 +5,7 @@ Matlab
 Matlab jpeg_toolbox
 
 # Feature extraction
-At the beginning of image steganalysis, first you need to extract the feature of images.In the fuction F=DCTR(I_STRUCT, QF), there are two inputs.I_STRUCT means path to the JPEG image,QF means JPEG quality factor(can be either 75 or 95) . The corresponding output F is extracted feature of the image.
+At the beginning of image steganalysis, first you need to extract the feature of images.In the fuction F=DCTR(I_STRUCT, QF), there are two inputs.I_STRUCT means path to the JPEG image,QF means JPEG quality factor(can be either 75 or 95). The corresponding output F is extracted feature of the image.
 
 ## TRAINING
 The next step is training a classifier using function ensemble_training. In this function [trained_ensemble,results] =ensemble_training(Xc,Xs,settings), 

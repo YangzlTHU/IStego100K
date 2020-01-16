@@ -5,7 +5,7 @@ Matlab
 Matlab jpeg_toolbox
 
 # Feature extraction
-At the beginning of image steganalysis, first you need to extract the feature of images. Take feature extraction function GFR as an example. In the fuction F=GFR(IMAGE,NR,QF), there are three inputs.IMAGE means path to the JPEG image,QF means JPEG quality factor(can be either 75 or 95) and NR means unmber of rotations for Gabor kernel. The corresponding output F is extracted Gabor feature
+At the beginning of image steganalysis, first you need to extract the feature of images. Take feature extraction function GFR as an example. In the fuction F=GFR(IMAGE,NR,QF), there are three inputs.IMAGE means path to the JPEG image,QF means JPEG quality factor(can be either 75 or 95) and NR means unmber of rotations for Gabor kernel. The corresponding output F is extracted Gabor feature.
 
 ## TRAINING
 The next step is training a classifier using function ensemble_training. In this function results=ensemble_training(Xc,Xs,settings), 

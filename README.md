@@ -33,6 +33,12 @@ Marked as DS-Test in the paper.10000 images with cover/stego [labels](https://dr
 
     Note: The number of images is 11809 in the paper, but we removed some low quality images before uploading.
 
+#### Alternate links
+For those who cannot access Google in Mainland China, try this Baidu Cloud Disk link:
+* [Train Set](https://pan.baidu.com/s/14gDpRO6ZoYollNFk_TeiRA)(__extraction code__:t7xf)
+- [Same-Source Test Set](https://pan.baidu.com/s/1LNyuzNNE3EouwqmDowJcDw)(__extraction code__:wpox)
+* [Different-Source Test Set](https://pan.baidu.com/s/1NDmucuyXzcrFD8ohEX83ZA)(__extraction code__:bqtd)
+
 ## Detailed Parameters
 We also provide detailed parameters for each image [here](https://drive.google.com/drive/folders/1wGX1PZiIEpVNOX8_45xIQTWDBgP94Hzj?usp=sharing).
 

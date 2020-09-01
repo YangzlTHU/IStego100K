@@ -20,6 +20,16 @@ If you used this dataset in your work, please consider to cite it in the followi
 
 Full PDF can be downloaded from [arxiv](https://arxiv.org/abs/1911.05542)
 
+
+Important!
+
+Considering that the data set is really large (almost 50G), which is difficult to download. We are now considering sharing this data set with everyone by express delivery. For specific delivery methods and delivery addresses, you can contact me by email: yangzl15@tsinghua.org.cn
+
+We look forward to working with you to promote the development of image steganography and steganalysis!
+
+
+
+
 ## Download
 
 #### [Train Set](https://drive.google.com/drive/folders/12BMGVvdR5H6pA3JD2JFENF8LS7YCqY1T?usp=sharing) 
